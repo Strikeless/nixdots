@@ -19,6 +19,9 @@
   environment.systemPackages = with pkgs; [
     protonup # CLI tool for updating proton imperatively
     mangohud
+
+    lutris
+    wineWowPackages.stable
   ];
 
   environment.sessionVariables = {

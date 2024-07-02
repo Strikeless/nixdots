@@ -1,8 +1,8 @@
 # https://nixos.wiki/wiki/Home_Manager
 { config, pkgs, ... }:
 let
-  # master.tar.gz for unstable nixpkgs
-  home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz";
+  # home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz";
+  home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz"; # Unstable
 in
 {
   imports = [

@@ -9,5 +9,6 @@
     bitwarden
     audacity
     obs-studio
+    deadbeef
   ];
 }

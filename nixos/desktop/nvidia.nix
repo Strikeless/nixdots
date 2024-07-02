@@ -1,9 +1,9 @@
 { config, pkgs, ... }: {
-  # Enable OpenGL
-  hardware.opengl = {
+  hardware.graphics = {
     enable = true;
-    driSupport = true;
-    driSupport32Bit = true;
+
+    #driSupport = true; # Useless as of unstable 30.6.2024
+    enable32Bit = true;
 
     extraPackages = with pkgs; [
       # VA-API and VDPAU drivers for video acceleration

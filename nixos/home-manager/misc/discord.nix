@@ -6,5 +6,7 @@
       withOpenASAR = true;
       withVencord = true;
     })
+
+    vesktop
   ];
 }
